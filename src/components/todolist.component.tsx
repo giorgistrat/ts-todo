@@ -1,12 +1,8 @@
-type TodoObjType = {
-  id: string;
-  text: string;
-};
+import { TodoObj } from '../todo.model';
 
 type TodoListProps = {
-  items: TodoObjType[];
+  items: TodoObj[];
 };
-
 
 const TodoList = ({ items }: TodoListProps) => {
   return (
