@@ -1,5 +1,7 @@
 import { TodoObj } from '../todo.model';
 
+import './todolist.css'
+
 type TodoListProps = {
   items: TodoObj[];
   onDeleteTodo: (todoId: string) => void;
